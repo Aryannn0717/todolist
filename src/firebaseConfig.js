@@ -2,12 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyB7XiBKcB2_SN0Z8CgpmS_CnyYj5onYYww",
+  authDomain: "todo-list-42f6e.firebaseapp.com",
+  projectId: "todo-list-42f6e",
+  storageBucket: "todo-list-42f6e.firebasestorage.app",
+  messagingSenderId: "468682786804",
+  appId: "1:468682786804:web:15b7a8cf0d90ceb9619ba1",
+  measurementId: "G-2ZF8BWKGXC"
 };
 
 const app = initializeApp(firebaseConfig);
